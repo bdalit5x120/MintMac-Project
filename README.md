@@ -32,7 +32,7 @@ Mounting -
   sudo mount /dev/"sdba1" /media/"usbname"
       Ex. 
         
-    sudo mount /dev/sdba1 /medai/usb
+    sudo mount /dev/sdba1 /media/usb
 
 
 Rename - sudo ./rename --old mintmain --new mint"newnumber" --index "newnumber" --gecos "mint"newnumber"

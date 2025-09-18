@@ -2,8 +2,10 @@
 Re-imaging IMACS for Mint Linux use
 
 Tools Used:
-Gparted - https://gparted.org/
-CloneZilla - https://clonezilla.org/
+
+  Gparted - https://gparted.org/
+  
+  CloneZilla - https://clonezilla.org/
 
 Current Inventory:
 https://docs.google.com/spreadsheets/d/1raWZw5cAPOhREMKeLRIhVgSCsU74mNR-6P-lN2q04wY/edit?usp=sharing

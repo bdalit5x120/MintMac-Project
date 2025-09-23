@@ -10,9 +10,20 @@ Re-imaging IMACS for Mint Linux use
 
 
 ## Commands:
++ _Log in as Root_
+   - Control + Option + FN + F2
+   - User: mintmain
+   - Pass: WolfPack
+
+         sudo passwd root
+         WolfPack
+         "newPassword"
+         "newPassword"
+     
+     
 + _Mounting_
    - Create directory to mount the  \
-    sudo mkdir /media/"usbname"
+    **sudo mkdir /media/"usbname"**
 
           sudo mkdir /media/usb
 
@@ -25,16 +36,34 @@ Re-imaging IMACS for Mint Linux use
           sdba2
             
 + _Mount USB_ \
-  sudo mount /dev/"sdba1" /media/"usbname" 
+  **sudo mount /dev/"sdba1" /media/"usbname"**
       
       sudo mount /dev/sdba1 /media/usb
 
+ + _Re-Log as root_
+
+       exit
+       root
+       "newPAssword"
+       cd /media/"usbname"
 
 + _Rename -_ \
-sudo ./rename --old mintmain --new mint"newnumber" --index "newnumber" --gecos "mint"newnumber"
+**sudo ./rename --old mintmain --new mint"newnumber" --index "newnumber" --gecos "mint"newnumber"**
 
       sudo ./rename --old mintmain --new mint10 --index 10 --gecos "mint10"
+      exit
 
+  + _SSH_
+   - Relog as mint"newnumber"
+
+         mint"newnumber"
+         WolfPack
+         cd /media/"usbname"
+         .sudo ./sshkeygen.sh
+
+  + _Reboot_
+
+         sudo reboot now
 
 
 ## USB's:

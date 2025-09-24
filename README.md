@@ -50,7 +50,7 @@ Re-imaging IMACS for Mint Linux use
 + _Rename -_ \
 **sudo ./rename --old mintmain --new mint"newnumber" --index "newnumber" --gecos "mint"newnumber"**
 
-      sudo ./rename --old mintmain --new mint10 --index 10 --gecos "mint10"
+      sudo ./rename.sh --old mintmain --new mint10 --index 10 --gecos "mint10"
       exit
 
   + _SSH_
@@ -65,6 +65,11 @@ Re-imaging IMACS for Mint Linux use
 
          sudo reboot now
 
+## *_FOR THUNDERBOLT 2 MACS_*
++ Running an extra script that allows the wifi to work since they have (BCM4360) Chipset
+
+       ./fix_wifi.sh
+  
 
 ## USB's:
 _D85 - **Tools**\
